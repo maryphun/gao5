@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Wallclock" ID="{74F774F0-574A-49BD-AF4B-A55C6184976C}">
+					<ChildrenList>
+						<Action Name="" ID="{37F029EE-B1A8-41CE-8D9F-0A2FC31F00B3}" ShortID="1068473866">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wallclock_Ticktock" ID="{4928FA85-5749-4454-AADF-08607C36E65B}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Light_Switch" ID="{67C7F46C-BC8A-4560-8BDD-9E9DAB4D8A4D}">
+					<ChildrenList>
+						<Action Name="" ID="{F361DE6C-031A-4FE8-B37B-7FA210D89561}" ShortID="952837789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light" ID="{6E47AB8F-DAFD-47ED-A896-20B59CD2503A}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Text_Appear" ID="{85D0C0B4-CC56-44D3-9311-9D5F8A48726B}">
+					<ChildrenList>
+						<Action Name="" ID="{24111713-231D-4BDB-AE71-CC7D7A793565}" ShortID="1006549182">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Typing" ID="{542A1798-2C39-4FE6-B3FD-C01F9E4FBD0B}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLYR_Walking" ID="{5A64880A-AC9C-4C4A-A79E-C7935E6CD210}">
+					<ChildrenList>
+						<Action Name="" ID="{12BCFA63-C5F5-4B79-89A8-0ADF2E20D457}" ShortID="319410279">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep" ID="{DAC13C59-1C0D-4CBA-85BC-D7E80142B5B6}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Calendar_Update" ID="{12DCBC88-1A03-4033-B568-22B4EE73338D}">
+					<ChildrenList>
+						<Action Name="" ID="{DF26C622-ACB7-4A98-9C40-AA552D314895}" ShortID="408811080">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Calendar" ID="{CEB1F0F1-7D75-4646-B01A-D9DFA6B92B88}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Item_Pickup" ID="{437E029E-1A28-4C37-A2BF-B4CE582EFFC9}">
+					<ChildrenList>
+						<Action Name="" ID="{F729FF62-1A4A-41AC-ADC1-4FD8C386974B}" ShortID="1045738424">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Item_Pickup" ID="{F507C5C2-F45A-46DC-8B2F-7E6D3EB9DC7E}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Letter_Pickup" ID="{04D4927A-2D19-46AD-9796-B328AFD03575}">
+					<ChildrenList>
+						<Action Name="" ID="{81A08AFD-29F3-4D19-8E59-33202405B923}" ShortID="627926339">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Letter_Pickup" ID="{CC1BB929-38B8-44A5-BF68-3776B4210BC8}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Selection" ID="{61CAB548-B3FA-4717-B7A3-02680A8F6B83}">
+					<ChildrenList>
+						<Action Name="" ID="{F0FE6FAD-9FC2-4C13-B6B5-58703DCAF17D}" ShortID="258747629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Selection" ID="{14CC21A9-A094-40DB-ABF3-561E65F208E2}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Confirm" ID="{DD151AB7-881F-496A-B331-9166A15A6361}">
+					<ChildrenList>
+						<Action Name="" ID="{6BC52CE8-45C5-4295-BAC1-9AD1F14FC582}" ShortID="468981709">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Select_Confirm" ID="{4108F4F1-06C0-4575-AF0F-67FB4D1148AE}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Open" ID="{7F5DCCEA-CEA4-497F-9CA1-C25FF7D7FCBE}">
+					<ChildrenList>
+						<Action Name="" ID="{C3156456-87FF-4EA3-B0B8-DCB233D5B8F6}" ShortID="614560581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door" ID="{4AAF028C-7624-4899-85FD-F9603E405C5A}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dialogue_Appear" ID="{B09DB1B3-E9FB-4791-B88B-FA2A90D73AF9}">
+					<ChildrenList>
+						<Action Name="" ID="{1446F854-4FD9-4C44-9D1A-0D1C48A3F932}" ShortID="178230203">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialogue_Box" ID="{87C2A1F7-0B81-405F-8114-13ACE0FC0187}" WorkUnitID="{F66C922F-9CDD-4E34-9F73-203905A0D906}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\exuan\OneDrive\Desktop\6REventProject\6REventProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\exuan\OneDrive\Desktop\6REventProject\6REventProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\exuan\OneDrive\Desktop\6REventProject\6REventProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\exuan\OneDrive\Desktop\6REventProject\6REventProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="77978275" Language="SFX" Hash="3049732170">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambient</ObjectPath>
+			<ShortName>Ambient</ShortName>
+			<Path>Ambient.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3024794277" Name="Calendar_Update" ObjectPath="\Events\Default Work Unit\Calendar_Update" DurationType="OneShot" DurationMin="1.218000" DurationMax="1.218000">
+					<IncludedMemoryFiles>
+						<File Id="369934558" Language="SFX">
+							<ShortName>Calendar_Rustle.wav</ShortName>
+							<Path>SFX\Calendar_Rustle_10C4C929.wem</Path>
+						</File>
+						<File Id="378017250" Language="SFX">
+							<ShortName>Calendar_Tear.wav</ShortName>
+							<Path>SFX\Calendar_Tear_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="756251481" Name="Dialogue_Appear" ObjectPath="\Events\Default Work Unit\Dialogue_Appear" DurationType="OneShot" DurationMin="0.427438" DurationMax="0.427438">
+					<IncludedMemoryFiles>
+						<File Id="275087245" Language="SFX">
+							<ShortName>Dialogue_Box.wav</ShortName>
+							<Path>SFX\Dialogue_Box_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Default Work Unit\Door_Open" DurationType="OneShot" DurationMin="1.029401" DurationMax="1.096108">
+					<IncludedMemoryFiles>
+						<File Id="255901358" Language="SFX">
+							<ShortName>Door_Open.wav</ShortName>
+							<Path>SFX\Door_Open_10C4C929.wem</Path>
+						</File>
+						<File Id="458792753" Language="SFX">
+							<ShortName>Door_Creak.wav</ShortName>
+							<Path>SFX\Door_Creak_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="566396871" Name="Item_Pickup" ObjectPath="\Events\Default Work Unit\Item_Pickup" DurationType="OneShot" DurationMin="0.214667" DurationMax="0.214667">
+					<IncludedMemoryFiles>
+						<File Id="908078272" Language="SFX">
+							<ShortName>Item_Pickup.wav</ShortName>
+							<Path>SFX\Item_Pickup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1330889728" Name="Letter_Pickup" ObjectPath="\Events\Default Work Unit\Letter_Pickup" DurationType="OneShot" DurationMin="0.701354" DurationMax="1.018229">
+					<IncludedMemoryFiles>
+						<File Id="240182194" Language="SFX">
+							<ShortName>Letter_Pickup_1.wav</ShortName>
+							<Path>SFX\Letter_Pickup_1_10C4C929.wem</Path>
+						</File>
+						<File Id="935305698" Language="SFX">
+							<ShortName>Letter_Pickup_2.wav</ShortName>
+							<Path>SFX\Letter_Pickup_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="790135102" Name="Light_Switch" ObjectPath="\Events\Default Work Unit\Light_Switch" DurationType="OneShot" DurationMin="1.735106" DurationMax="1.872982">
+					<IncludedMemoryFiles>
+						<File Id="170866717" Language="SFX">
+							<ShortName>Light_Flicker.wav</ShortName>
+							<Path>SFX\Light_Flicker_10C4C929.wem</Path>
+						</File>
+						<File Id="333059483" Language="SFX">
+							<ShortName>Light_Switch.wav</ShortName>
+							<Path>SFX\Light_Switch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4038458484" Name="PLYR_Walking" ObjectPath="\Events\Default Work Unit\PLYR_Walking" DurationType="OneShot" DurationMin="0.132142" DurationMax="0.148325">
+					<IncludedMemoryFiles>
+						<File Id="332114592" Language="SFX">
+							<ShortName>Footstep_2.wav</ShortName>
+							<Path>SFX\Footstep_2_10C4C929.wem</Path>
+						</File>
+						<File Id="384558191" Language="SFX">
+							<ShortName>Footstep_1.wav</ShortName>
+							<Path>SFX\Footstep_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2978752348" Name="Text_Appear" ObjectPath="\Events\Default Work Unit\Text_Appear" DurationType="OneShot" DurationMin="0.128564" DurationMax="0.149517">
+					<IncludedMemoryFiles>
+						<File Id="125459260" Language="SFX">
+							<ShortName>Letter_1.wav</ShortName>
+							<Path>SFX\Letter_1_10C4C929.wem</Path>
+						</File>
+						<File Id="133552401" Language="SFX">
+							<ShortName>Letter_3.wav</ShortName>
+							<Path>SFX\Letter_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="216067002" Name="UI_Confirm" ObjectPath="\Events\Default Work Unit\UI_Confirm" DurationType="OneShot" DurationMin="0.202458" DurationMax="0.202458">
+					<IncludedMemoryFiles>
+						<File Id="1027398136" Language="SFX">
+							<ShortName>Select_Confirm.wav</ShortName>
+							<Path>SFX\Select_Confirm_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3967693624" Name="UI_Selection" ObjectPath="\Events\Default Work Unit\UI_Selection" DurationType="OneShot" DurationMin="0.246771" DurationMax="0.267073">
+					<IncludedMemoryFiles>
+						<File Id="85434306" Language="SFX">
+							<ShortName>Select_2.wav</ShortName>
+							<Path>SFX\Select_2_10C4C929.wem</Path>
+						</File>
+						<File Id="541767135" Language="SFX">
+							<ShortName>Select_1.wav</ShortName>
+							<Path>SFX\Select_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1462465989" Name="Wallclock" ObjectPath="\Events\Default Work Unit\Wallclock" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="130022720" Language="SFX">
+							<ShortName>Wallclock_Ticktock.wav</ShortName>
+							<Path>SFX\Wallclock_Ticktock_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

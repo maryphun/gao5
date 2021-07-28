@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D5DA247E-6D9D-4308-BFAA-F17C4C1883FE}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D5DA247E-6D9D-4308-BFAA-F17C4C1883FE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Ambient" ID="{E1D796F9-834C-452B-8B71-6FA4A0F9DFDB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Calendar_Update" ID="{12DCBC88-1A03-4033-B568-22B4EE73338D}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Text_Appear" ID="{85D0C0B4-CC56-44D3-9311-9D5F8A48726B}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Light_Switch" ID="{67C7F46C-BC8A-4560-8BDD-9E9DAB4D8A4D}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Letter_Pickup" ID="{04D4927A-2D19-46AD-9796-B328AFD03575}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Selection" ID="{61CAB548-B3FA-4717-B7A3-02680A8F6B83}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dialogue_Appear" ID="{B09DB1B3-E9FB-4791-B88B-FA2A90D73AF9}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Confirm" ID="{DD151AB7-881F-496A-B331-9166A15A6361}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Open" ID="{7F5DCCEA-CEA4-497F-9CA1-C25FF7D7FCBE}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wallclock" ID="{74F774F0-574A-49BD-AF4B-A55C6184976C}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Item_Pickup" ID="{437E029E-1A28-4C37-A2BF-B4CE582EFFC9}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLYR_Walking" ID="{5A64880A-AC9C-4C4A-A79E-C7935E6CD210}" WorkUnitID="{B21239D8-7CA4-4533-AEEA-4AE7B39F6DA2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
