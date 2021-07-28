@@ -34,9 +34,9 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="+ZbX4UyDK0WLcW+koPnf2w=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="+ZbX4UyDK0WLcW+koPnf23EpiQzMVE9Hli4woe5eB7U="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="YxgmcuKaKUaw+H+6EjLLowH+QHL/////q3ge7VNyK0WzYixCVvdhtgH+QHL/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="YxgmcuKaKUaw+H+6EjLLowH+XOD/////q3ge7VNyK0WzYixCVvdhtgH+XOD/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -68,7 +68,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="KY1DHxx6dUCYfbq1mk7pHqkhzBSUoNtAq/NWHmXyCOIpuRvMuDilRL9oN3a0IQvIjAKvSiR2mUiF/flgPkBcWlk8wdoNHLpMhbzX6AFCtbYvkmz23Zw0Tp9zIDkFoNkGmDosYaRiSk6CwV3326gZyZgXKlQ5LOZPs/3AH55PvQs="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="qSHMFJSg20Cr81YeZfII4im5G8y4OKVEv2g3drQhC8iMAq9KJHaZSIX9+WA+QFxaWTzB2g0cukyFvNfoAUK1ti+SbPbdnDROn3MgOQWg2QaYFypUOSzmT7P9wB+eT70L"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
