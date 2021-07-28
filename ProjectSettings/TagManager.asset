@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Object
+  - ObjectGraphic
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackObjectOtherRoom
+    uniqueID: 2946299179
+    locked: 0
+  - name: ObjectOtherRoom
+    uniqueID: 3389826345
+    locked: 0
+  - name: FrontObjectOtherRoom
+    uniqueID: 4153392997
+    locked: 0
+  - name: ShadowOtherRoom
+    uniqueID: 2794368265
+    locked: 0
+  - name: BackObject
+    uniqueID: 2305931983
+    locked: 0
+  - name: Object
+    uniqueID: 510118243
+    locked: 0
+  - name: FrontObject
+    uniqueID: 3553342741
+    locked: 0
+  - name: Shadow
+    uniqueID: 3315184815
+    locked: 0
+  - name: UI
+    uniqueID: 2620202243
+    locked: 0
