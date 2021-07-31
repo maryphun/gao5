@@ -12,22 +12,22 @@ Event	ID	Name			Wwise Object Path	Notes
 	4038458484	PLYR_Walking			\Default Work Unit\PLYR_Walking	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	85434306	Select_2	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Select_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Selection\Select_2		47444
-	125459260	Letter_1	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Letter_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Typing\Letter_1		27160
-	130022720	Wallclock_Ticktock	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Wallclock_Ticktock_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wallclock_Ticktock		192064
-	133552401	Letter_3	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Letter_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Typing\Letter_3		26216
-	170866717	Flicker	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Light_Flicker_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Light\Flicker		217792
-	240182194	Letter_Pickup_1	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Letter_Pickup_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Letter_Pickup\Letter_Pickup_1		134724
-	255901358	Door_Open	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\Door_Open		62336
-	275087245	Dialogue_Box	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Dialogue_Box_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue_Box		82132
-	332114592	Footstep_2	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Footstep_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_2		26944
-	333059483	Switch	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Light_Switch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Light\Switch		32064
-	369934558	Calendar_Rustle	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Calendar_Rustle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Calendar\Calendar_Rustle		233920
-	378017250	Calendar_Tear	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Calendar_Tear_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Calendar\Calendar_Tear		90116
-	384558191	Footstep_1	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Footstep_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_1		26944
-	458792753	Door_Creak	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Door_Creak_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\Door_Creak		189120
-	541767135	Select_1	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Select_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Selection\Select_1		47908
-	908078272	Item_Pickup	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Item_Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Item_Pickup		41280
-	935305698	Letter_Pickup_2	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Letter_Pickup_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Letter_Pickup\Letter_Pickup_2		195564
-	1027398136	Select_Confirm	C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Select_Confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Select_Confirm		38936
+	85434306	Select_2	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Select_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Selection\Select_2		47444
+	125459260	Letter_1	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Letter_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Typing\Letter_1		27160
+	130022720	Wallclock_Ticktock	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Wallclock_Ticktock_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wallclock_Ticktock		192064
+	133552401	Letter_3	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Letter_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Typing\Letter_3		26216
+	170866717	Flicker	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Light_Flicker_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Light\Flicker		217792
+	240182194	Letter_Pickup_1	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Letter_Pickup_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Letter_Pickup\Letter_Pickup_1		134724
+	255901358	Door_Open	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\Door_Open		62336
+	275087245	Dialogue_Box	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Dialogue_Box_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue_Box		82132
+	332114592	Footstep_2	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Footstep_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_2		26944
+	333059483	Switch	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Light_Switch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Light\Switch		32064
+	369934558	Calendar_Rustle	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Calendar_Rustle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Calendar\Calendar_Rustle		233920
+	378017250	Calendar_Tear	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Calendar_Tear_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Calendar\Calendar_Tear		90116
+	384558191	Footstep_1	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Footstep_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_1		26944
+	458792753	Door_Creak	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Door_Creak_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door\Door_Creak		189120
+	541767135	Select_1	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Select_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Selection\Select_1		47908
+	908078272	Item_Pickup	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Item_Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Item_Pickup		41280
+	935305698	Letter_Pickup_2	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Letter_Pickup_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Letter_Pickup\Letter_Pickup_2		195564
+	1027398136	Select_Confirm	C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Mac\SFX\Select_Confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Select_Confirm		38936
 

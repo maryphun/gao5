@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\exuan\OneDrive\Desktop\gao5\6REventProject_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\phunm\OneDrive\Desktop\UnityProjects\gao5\6REventProject_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Language="SFX" Hash="1384079869">
+		<SoundBank Id="77978275" Language="SFX" Hash="1605640906">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambient</ObjectPath>
 			<ShortName>Ambient</ShortName>
 			<Path>Ambient.bnk</Path>

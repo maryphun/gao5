@@ -23,6 +23,7 @@ public class DialogueManager : MonoBehaviour
     private bool isInDialogue;
     private string currentWindowBoxName;
 
+
     // narrative
     private bool narrativeMode;
     private bool isTypeWrting;
@@ -49,6 +50,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     List<RegisteredDialogue> registeredDialogueList;
+    RegisteredDialogue currentDialogue;
 
     private void Awake()
     {
@@ -91,6 +93,8 @@ public class DialogueManager : MonoBehaviour
                         break;
                 }
 
+                // record current dialogue data.
+                currentDialogue = registeredDialogueList[0];
                 // remove from the list.
                 registeredDialogueList.RemoveAt(0);
             }
@@ -115,6 +119,24 @@ public class DialogueManager : MonoBehaviour
                 {
                     player.SetInteractMode(false);
                 }
+            }
+        }
+
+
+        // update dialogue position
+        if (isInDialogue)
+        {
+            if (currentDialogue.type == DialogueType.ChatboxWithSelection || currentDialogue.type == DialogueType.ChatboxNoSelection)
+            {
+                float textCount = (currentDialogue.text.Length + 1);
+                Vector2 windowSize = new Vector2(GetSpacePerText(textSize) * textCount, 100f);
+                windowSize = AutoResizeWindow(windowSize);
+
+                Vector2 tmpPos = new Vector2(Camera.main.WorldToScreenPoint(currentDialogue.fromObject.position).x - Screen.width / 2f,
+                                             Camera.main.WorldToScreenPoint(currentDialogue.fromObject.position).y - Screen.height/ 2f);
+                tmpPos.y += windowSize.y / 2f;
+                tmpPos += currentDialogue.offset;
+                WindowManager.Instance.GetWindowObject(currentWindowBoxName).GetComponent<RectTransform>().DOAnchorPos(tmpPos, 0.2f);
             }
         }
     }
@@ -190,14 +212,12 @@ public class DialogueManager : MonoBehaviour
     public void CreateDialogueBox(string text, Transform character, Vector2 offset)
     {
         // calculate window size base on text count
-        float spacePerText = (textSize * 1.38888888889f);
         float textCount = (text.Length + 1);
-        Vector2 windowSize = new Vector2(spacePerText * textCount, 100f);
+        Vector2 windowSize = new Vector2(GetSpacePerText(textSize) * textCount, 100f);
         windowSize = AutoResizeWindow(windowSize);
 
         Vector2 tmpPos = new Vector2(Camera.main.WorldToScreenPoint(character.position).x - Screen.width / 2f,
                                      Camera.main.WorldToScreenPoint(character.position).y - Screen.height / 2f);
-        Debug.Log(tmpPos);
         tmpPos.y += windowSize.y / 2f;
         tmpPos += offset;
         currentWindowBoxName = "dialogue" + text.Substring(0, 5);
@@ -213,6 +233,11 @@ public class DialogueManager : MonoBehaviour
 
         // Play Audio
         AkSoundEngine.PostEvent("Dialogue_Appear", gameObject);
+    }
+
+    private float GetSpacePerText(float textsize)
+    {
+        return textsize * 1.38888888889f;
     }
 
     public void RegisterNewNarrative(string text, bool playSE = true)

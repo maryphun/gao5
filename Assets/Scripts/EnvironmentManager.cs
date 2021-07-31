@@ -9,6 +9,7 @@ public enum RoomType
     CORRIDOR4F,
     CORRIDOR3F,
     CORRIDOR2F,
+    WANG4B,
     MAX,
     NONE,
 }
@@ -29,12 +30,14 @@ public class EnvironmentManager : MonoBehaviour
     [SerializeField] GameObject corridor4f;
     [SerializeField] GameObject corridor3f;
     [SerializeField] GameObject corridor2f;
+    [SerializeField] GameObject wang4b;
 
     [Header("Room Component")]
     [SerializeField] RoomComponent playerRoomComponent;
     [SerializeField] RoomComponent corridor4fComponent;
     [SerializeField] RoomComponent corridor3fComponent;
     [SerializeField] RoomComponent corridor2fComponent;
+    [SerializeField] RoomComponent wang4bComponent;
 
     [Header("Specific Reference")]
     [SerializeField] SpriteRenderer alphaExceptCalender;
@@ -55,9 +58,9 @@ public class EnvironmentManager : MonoBehaviour
     void Start()
     {
         // default
-        isNight = true;
         lightOn = new bool[(int)RoomType.MAX];
         SwitchRoom(RoomType.PLAYERROOM, true);
+        Morning();
     }
 
     public void SwitchLightBulb(bool boolean)
@@ -70,9 +73,17 @@ public class EnvironmentManager : MonoBehaviour
         else
         {
             currentRoomComponent.lightbulb.DOFade(0.0f, lightBulbTime);
-            currentRoomComponent.night[1].DOFade(1.0f, lightBulbTime);
-            currentRoomComponent.night[2].DOFade(0.0f, lightBulbTime);
-            currentRoomComponent.roomAlpha.DOFade(0.7f, lightBulbTime);
+            if (isNight)
+            {
+                currentRoomComponent.night[1].DOFade(1.0f, lightBulbTime);
+                currentRoomComponent.night[2].DOFade(0.0f, lightBulbTime);
+                currentRoomComponent.roomAlpha.DOFade(0.7f, lightBulbTime);
+            }
+            else // morning
+            {
+                currentRoomComponent.roomAlpha.DOFade(0.0f, lightBulbTime);
+                currentRoomComponent.morning[0].DOFade(0.0f, lightBulbTime);
+            }
         }
     }
 
@@ -101,6 +112,10 @@ public class EnvironmentManager : MonoBehaviour
             currentRoomComponent.night[1].DOFade(0.0f, time / 5.0f);
             currentRoomComponent.night[2].DOFade(1.0f, time / 5.0f);
             currentRoomComponent.roomAlpha.DOFade(0.0f, time / 5.0f);
+        }
+        else // morning
+        {
+            currentRoomComponent.morning[0].DOFade(1.0f, time / 5.0f);
         }
     }
 
@@ -147,20 +162,40 @@ public class EnvironmentManager : MonoBehaviour
             }
         }
     }
+    public void Morning()
+    {
+        isNight = false;
+        foreach (SpriteRenderer sprite in currentRoomComponent.night)
+        {
+            sprite.DOFade(0.0f, 0.0f);
+        }
+
+        currentRoomComponent.roomAlpha.DOFade(0.0f, 0.0f);
+
+        SpriteRenderer tmp;
+        if (lightOn[(int)currentRoom])
+        {
+            tmp = currentRoomComponent.morning[0];
+            if (tmp != null)
+            {
+                tmp.DOFade(1.0f, 0.0f);
+            }
+        }
+        else
+        {
+            tmp = currentRoomComponent.morning[0];
+            if (tmp != null)
+            {
+                tmp.DOFade(0.0f, 0.0f);
+            }
+        }
+    }
 
     public void SwitchRoom(RoomType target, bool isInitiate = false)
     {
         // initiate variable
-        GameObject[] rooms = new GameObject[(int)RoomType.MAX];
-        rooms[0] = playerRoom;
-        rooms[1] = corridor4f;
-        rooms[2] = corridor3f;
-        rooms[3] = corridor2f;
-        RoomComponent[] roomComponents = new RoomComponent[(int)RoomType.MAX];
-        roomComponents[0] = playerRoomComponent;
-        roomComponents[1] = corridor4fComponent;
-        roomComponents[2] = corridor3fComponent;
-        roomComponents[3] = corridor2fComponent;
+        GameObject[] rooms = GetRoomListArray();
+        RoomComponent[] roomComponents = GetRoomComponentListArray();
 
         // swap sorting order to back
         for (int i = 0; i < (int)RoomType.MAX; i++)
@@ -201,6 +236,10 @@ public class EnvironmentManager : MonoBehaviour
         {
             Night();
         }
+        else
+        {
+            Morning();
+        }
 
         // Ambient
         AkSoundEngine.StopAll(gameObject);
@@ -213,11 +252,7 @@ public class EnvironmentManager : MonoBehaviour
     private void SetRoomObjectActive(RoomType roomType, bool boolean)
     {
         // initiate variable
-        GameObject[] rooms = new GameObject[(int)RoomType.MAX];
-        rooms[0] = playerRoom;
-        rooms[1] = corridor4f;
-        rooms[2] = corridor3f;
-        rooms[3] = corridor2f;
+        GameObject[] rooms = GetRoomListArray();
 
         // search the specific room
         for (int i = 0; i < (int)RoomType.MAX; i++)
@@ -278,5 +313,29 @@ public class EnvironmentManager : MonoBehaviour
                 renderer.sortingLayerName = to;
             }
         }
+    }
+
+    private GameObject[] GetRoomListArray()
+    {
+        GameObject[] rooms = new GameObject[(int)RoomType.MAX];
+        rooms[0] = playerRoom;
+        rooms[1] = corridor4f;
+        rooms[2] = corridor3f;
+        rooms[3] = corridor2f;
+        rooms[4] = wang4b;
+
+        return rooms;
+    }
+
+    private RoomComponent[] GetRoomComponentListArray()
+    {
+        RoomComponent[] roomComponents = new RoomComponent[(int)RoomType.MAX];
+        roomComponents[0] = playerRoomComponent;
+        roomComponents[1] = corridor4fComponent;
+        roomComponents[2] = corridor3fComponent;
+        roomComponents[3] = corridor2fComponent;
+        roomComponents[4] = wang4bComponent;
+
+        return roomComponents;
     }
 }
